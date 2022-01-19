@@ -141,17 +141,17 @@ header {
       clear: both;
   }
 }
-// .mydiv::before {
-//     display: block;
-//     position: relative;
-//     content:'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
-//     width: 200px;
-//     color: red;
-// }
-// .mydiv::after {
-//     display: block;
-//     position: relative;
-//     content:'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
-//     width: 200px;
-//     color: red;
-// }
+.mydiv::before {
+    display: block;
+    position: relative;
+    content:'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
+    width: 200px;
+    color: red;
+}
+.mydiv::after {
+    display: block;
+    position: relative;
+    content:'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
+    width: 200px;
+    color: red;
+}

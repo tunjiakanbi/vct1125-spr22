@@ -102,4 +102,20 @@ header nav ul li:hover a {
   display: table;
   clear: both;
 }
+
+.mydiv::before {
+  display: block;
+  position: relative;
+  content: 'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
+  width: 200px;
+  color: red;
+}
+
+.mydiv::after {
+  display: block;
+  position: relative;
+  content: 'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
+  width: 200px;
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
