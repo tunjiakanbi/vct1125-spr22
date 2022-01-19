@@ -118,4 +118,11 @@ header nav ul li:hover a {
   width: 200px;
   color: red;
 }
+
+footer {
+  position: relative;
+  top: 50px;
+  height: 100px;
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
