@@ -135,23 +135,29 @@ header {
     //clear fix hack solution 2, preferable
     }
   }
+  #para2 {
+    color: red;
+    padding: 3em;
+    margin-top: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   #para1::after {
       content:"";
       display: table;
       clear: both;
   }
 }
-.mydiv::before {
-    display: block;
-    position: relative;
-    content:'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
-    width: 200px;
-    color: red;
-}
-.mydiv::after {
-    display: block;
-    position: relative;
-    content:'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
-    width: 200px;
-    color: red;
-}
+// .mydiv::before {
+//     display: block;
+//     position: relative;
+//     content:'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
+//     width: 200px;
+//     color: red;
+// }
+// .mydiv::after {
+//     display: block;
+//     position: relative;
+//     content:'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
+//     width: 200px;
+//     color: red;
+// }

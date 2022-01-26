@@ -97,25 +97,16 @@ header nav ul li:hover a {
   float: right;
 }
 
+.mydiv #para2 {
+  color: red;
+  padding: 3em;
+  margin-top: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .mydiv #para1::after {
   content: "";
   display: table;
   clear: both;
-}
-
-.mydiv::before {
-  display: block;
-  position: relative;
-  content: 'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
-  width: 200px;
-  color: red;
-}
-
-.mydiv::after {
-  display: block;
-  position: relative;
-  content: 'fjkshfjkdhfgjsbgjk.bgjksfbvjkfsbvkjsfbv';
-  width: 200px;
-  color: red;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,83 @@
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  .container { 
+      width: 100vw;
+      height: 100vh;      
+      background-color:#733A26;//#F2F2F2;////#A6A194;//#736D5C; //#BDBFBF;  //  // // ;
+    //   section {
+      position: relative;
+      z-index:-1;
+     
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        //   color: #733A26;
+          color: #BDBFBF;
+          font-size: 5em;
+          font-family: pirulen;
+          letter-spacing: 0.175em;
+          text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5)
+          
+      }
+      span {
+              position: absolute;
+              z-index: -1;
+              left: 97px;
+              font-family:inherit;
+              padding: 0.25em;
+              background-color: black;
+            //   display: inline-block;
+              border-radius: 50%;
+              width: 110px;
+              height: 110px;
+              box-sizing: content-box;
+              position: relative;
+              
+          }
+       // }
+  }
+  @font-face {
+      font-family: pirulen;
+      src: url("../fonts/pirulen_rg.ttf");
+  }
+  @font-face {
+      font-family: futureLight;
+      src: url("../fonts/Future_Light.otf");
+  }
+  #century {
+      font-family: futureLight;
+      position: absolute;
+      top: 60%;
+      left: 25%;
+      transform: translate(-50% -50%);
+      font-size: 3em;
+      letter-spacing: 0.2em;
+      color: #736D5C;
+  }
+  /* Color Theme Swatches in Hex */
+// $UI/UX-1-hex: #BDBFBF;
+// $UI/UX-2-hex: #736D5C;
+// $UI/UX-3-hex: #A6A194;
+// $UI/UX-4-hex: #733A26;
+// $UI/UX-5-hex: #F2F2F2;
+
+/* Color Theme Swatches in RGBA */
+// $UI/UX-1-rgba: rgba(189,190,191, 1);
+// $UI/UX-2-rgba: rgba(114,109,91, 1);
+// $UI/UX-3-rgba: rgba(165,161,147, 1);
+// $UI/UX-4-rgba: rgba(114,58,37, 1);
+// $UI/UX-5-rgba: rgba(242,242,242, 1);
+
+/* Color Theme Swatches in HSLA */
+// $UI/UX-1-hsla: hsla(196, 1, 74, 1);
+// $UI/UX-2-hsla: hsla(44, 11, 40, 1);
+// $UI/UX-3-hsla: hsla(45, 9, 61, 1);
+// $UI/UX-4-hsla: hsla(16, 50, 29, 1);
+// $UI/UX-5-hsla: hsla(0, 0, 95, 1);
