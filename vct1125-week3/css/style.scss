@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+#container { 
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg#pattern {
+    width: 700px;
+    height: 700px;
+    .cls-1,.cls-2{
+        fill:none;
+        stroke-miterlimit:10;
+        stroke-width:4px;
+    }
+    .cls-1{
+        stroke:#b3b3b3;
+    }
+    .cls-2{
+        stroke:#000;
+    } 
+    polyline.cls-2 {
+        stroke-dasharray: 9790;
+        stroke-dashoffset: 9790;
+        transition: 10s stroke-dashoffset linear;
+    }
+}
+
+svg#pattern:hover polyline.cls-2 {
+    stroke-dashoffset: 0;
+}
