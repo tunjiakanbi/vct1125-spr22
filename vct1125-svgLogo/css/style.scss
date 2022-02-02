@@ -50,6 +50,7 @@
     }
     .text {
         stroke-dasharray: 300;
+        stroke-linecap: "square";
         animation: 6s text-anim ease forwards;
     }
     @keyframes b-cir-anim {
