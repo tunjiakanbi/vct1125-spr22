@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: blue;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container svg#creative-web-logo {
+  width: 85vh;
+}
+
+.container svg#creative-web-logo .s-circle {
+  fill: blue;
+}
+
+.container svg#creative-web-logo .w-line {
+  fill: #fff;
+}
+
+.container svg#creative-web-logo .s-circle,
+.container svg#creative-web-logo .text {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+
+.container svg#creative-web-logo .s-circle {
+  stroke-width: 3px;
+}
+
+.container svg#creative-web-logo .text {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.container svg#creative-web-logo .b-circle {
+  fill: #000782;
+  stroke: #fff;
+  stroke-width: 8px;
+  stroke-dasharray: 1348;
+  -webkit-animation: 5s b-cir-anim ease-in-out forwards;
+          animation: 5s b-cir-anim ease-in-out forwards;
+}
+
+.container svg#creative-web-logo .text {
+  stroke-dasharray: 300;
+  -webkit-animation: 6s text-anim ease forwards;
+          animation: 6s text-anim ease forwards;
+}
+
+@-webkit-keyframes b-cir-anim {
+  from {
+    stroke-dashoffset: 1348;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes b-cir-anim {
+  from {
+    stroke-dashoffset: 1348;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes text-anim {
+  from {
+    stroke-dashoffset: 300;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes text-anim {
+  from {
+    stroke-dashoffset: 300;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
