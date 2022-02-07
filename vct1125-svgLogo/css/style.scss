@@ -43,35 +43,35 @@
         fill: #000782;
         stroke: #fff;
         stroke-width: 8px;
-        stroke-dasharray: 1348;
+        // stroke-dasharray: 1348; //////
         // stroke-dashoffset: 1348;
-        animation: 5s b-cir-anim ease-in-out forwards;
+        // animation: 5s b-cir-anim ease-in-out forwards;
         // animation-delay: 5s;
     }
     .text {
         stroke-dasharray: 300;
         stroke-linecap: "square";
-        animation: 6s text-anim ease forwards;
+        // animation: 6s text-anim ease forwards;
     }
-    @keyframes b-cir-anim {
-        from {
-            // opacity: 0;
-            stroke-dashoffset: 1348;
-        }
-        to {
+    // @keyframes b-cir-anim {
+    //     from {
+    //         // opacity: 0;
+    //         stroke-dashoffset: 1348;
+    //     }
+    //     to {
 
-            stroke-dashoffset: 0;
-        }
-    }
-    @keyframes text-anim {
-        from {
-            // opacity: 0;
-            stroke-dashoffset: 300;
-        }
-        to {
+    //         stroke-dashoffset: 0;
+    //     }
+    // }
+    // @keyframes text-anim {
+    //     from {
+    //         // opacity: 0;
+    //         stroke-dashoffset: 300;
+    //     }
+    //     to {
 
-            stroke-dashoffset: 0;
-        }
-    }
+    //         stroke-dashoffset: 0;
+    //     }
+    // }
   }
 }
