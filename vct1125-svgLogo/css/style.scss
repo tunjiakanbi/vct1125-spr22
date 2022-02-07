@@ -19,7 +19,9 @@
     }
 
     .w-line {
-      fill: #fff;
+      // fill: #fff;
+      stroke-width: 2px;
+      stroke: #fff;
     }
 
     .s-circle,
@@ -43,7 +45,7 @@
         fill: #000782;
         stroke: #fff;
         stroke-width: 8px;
-        // stroke-dasharray: 1348; //////
+        // stroke-dasharray: 1348; 
         // stroke-dashoffset: 1348;
         // animation: 5s b-cir-anim ease-in-out forwards;
         // animation-delay: 5s;

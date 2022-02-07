@@ -1,16 +1,23 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container {
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: blue;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container svg#creative-web-logo {
@@ -22,7 +29,8 @@
 }
 
 .container svg#creative-web-logo .w-line {
-  fill: #fff;
+  stroke-width: 2px;
+  stroke: #fff;
 }
 
 .container svg#creative-web-logo .s-circle,
