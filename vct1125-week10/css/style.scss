@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&display=swap');
+// font-family: 'Black Ops One', cursive;
+// font-family: 'Montserrat', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+:root {
+    --blackOps1: 'Black Ops One', cursive;
+    --monserrat: 'Montserrat', sans-serif;
+    --appmaxheight: 100vh;
+    // --appmaxheight: $App_MaxHeight;
+    --appsize4: 5.5em;
+    // --appsize4: $App_Size4;
+}
+p {
+    font-family: var(--monserrat);
+}
+
+/* Color Theme Swatches in Hex */
+$App_1: #F20519;
+$App_2: #5B48D9;
+$App_3: #F0F0F2;
+$App_4: #CEF2F2;
+$App_5: #04D9C4;
+
+$App_Gradient: to bottom right, $App_5, $App_4;
+$App_Size005: 0.05em;
+$App_Size05: 0.5em;
+$App_Size075: 0.75em;
+$App_Size1: 16px;
+$App_Size2: 2em;
+$App_Size3: 3em;
+$App_Size4: 5.5em;
+$App_MaxWidth: 100vw;
+$App_MaxHeight: 100vh;
+$App_Flex: flex;
+$App_Justify: center;
+
+.container1 {
+    width: $App_MaxWidth;
+    height: $App_MaxHeight;
+    background-image: linear-gradient($App_Gradient);
+    // display: $App_Flex;
+    // justify-content: $App_Justify;
+nav{
+    height: $App_Size4;
+    width: $App_MaxWidth;
+    background-color: $App_2;
+}
+    section#container-section {
+        width: 100%;
+        // margin: 0 auto;
+        // margin-top: calc(var(--appsize4)/2);
+        margin-top: calc(var(--appsize4)/2);
+         display: $App_Flex;
+         justify-content: center;
+         .content {
+             width: 30%;
+             height: calc(var(--appmaxheight) - 300px);
+             margin: $App_Size075;
+             padding: $App_Size3;
+             border: $App_Size005 solid $App_1;
+             border-radius: $App_Size1;
+             h1 {
+                 margin-bottom: $App_Size2;
+             }
+         }
+    }
+   
+}
+

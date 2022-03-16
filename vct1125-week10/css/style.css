@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --blackOps1: 'Black Ops One', cursive;
+  --monserrat: 'Montserrat', sans-serif;
+  --appmaxheight: 100vh;
+  --appsize4: 5.5em;
+}
+
+p {
+  font-family: var(--monserrat);
+}
+
+/* Color Theme Swatches in Hex */
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#04D9C4), to(#CEF2F2));
+  background-image: linear-gradient(to bottom right, #04D9C4, #CEF2F2);
+}
+
+.container1 nav {
+  height: 5.5em;
+  width: 100vw;
+  background-color: #5B48D9;
+}
+
+.container1 section#container-section {
+  width: 100%;
+  margin-top: calc(var(--appsize4)/2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container1 section#container-section .content {
+  width: 30%;
+  height: calc(var(--appmaxheight) - 300px);
+  margin: 0.75em;
+  padding: 3em;
+  border: 0.05em solid #F20519;
+  border-radius: 16px;
+}
+
+.container1 section#container-section .content h1 {
+  margin-bottom: 2em;
+}
+/*# sourceMappingURL=style.css.map */
