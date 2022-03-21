@@ -118,6 +118,9 @@ nav{
        }
    }
 }
+
+
+// Drop Down CSS starts here"
 .container2{
     position: relative;
     width: $App_MaxWidth;
@@ -131,7 +134,7 @@ nav{
        width: 300px;
        height: $App_Size3;
        list-style: none;
-        padding: $App_Size075 $App_Size3;
+        // padding: $App_Size075 $App_Size3;
         position: relative;
         color:$App_4;
         background-color: $App_2;
@@ -152,7 +155,7 @@ nav{
         top: $App_Size3;
         z-index: 1;
         width: 100%;
-        // display: none;
+        display: none;
         // padding: $App_Size075 $App_Size3;
         background-color: $App_2;
          li {
