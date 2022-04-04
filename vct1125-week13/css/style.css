@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&family=Roboto:wght@100;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container #box1, .container #box2, .container #box3 {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  border: 0.5em solid #fff;
+  border-radius: 0.5em;
+}
+
+.container #box1 h1, .container #box2 h1, .container #box3 h1 {
+  font-size: 4.5em;
+  font-family: 'Black Ops One', cursive;
+}
+
+.container .box1 {
+  -webkit-transform: rotateX(45deg);
+          transform: rotateX(45deg);
+  -webkit-transform: rotateY(45deg);
+          transform: rotateY(45deg);
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.container #box2 {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-perspective-origin: 50% 50%;
+          perspective-origin: 50% 50%;
+}
+
+.container #box2 h1 {
+  -webkit-transform: rotateX(70deg);
+          transform: rotateX(70deg);
+  background-color: #000;
+  padding: 3em 0;
+}
+
+.container #box3 {
+  -webkit-transition: all 2s ease-in 1s;
+  transition: all 2s ease-in 1s;
+  cursor: pointer;
+}
+
+.container #box3:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
