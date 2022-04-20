@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&display=swap');
+// font-family: 'Black Ops One', cursive;
+// font-family: 'Montserrat', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    // box-sizing: border-box;
+}
+
+body {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        // background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #box1 {
+            width: 700px;
+            height: 700px;
+            #svgTxt {
+                font-size: 4em;
+            }
+            #rectBox1 {
+                width: 600px;
+                height: 600px;
+                fill: red;
+                stroke: white;
+                stroke-width: 20px;
+            }
+        }
+    }
+
+    #circle1 {
+        width: 700px;
+        height: 700px;
+
+        #roundCircle1 {
+            fill: red;
+            stroke: white;
+            stroke-width: 20px;
+ 
+        }
+    }
+}
+h1#text {
+    position: absolute;
+    color: red;
+    font-family: 'Black Ops One', cursive;
+    font-size: 5em;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+#box3 {
+    width: 700px;
+    height: 700px;
+    box-shadow: 40px 40px 40px rgba(128, 128, 128, 0.6);
+
+    #rectBox3 {
+        width: 700px;
+        height: 700px;
+        fill: red;
+        stroke: rgb(0, 0, 0);
+        stroke-width:100px;
+    }
+}
+
